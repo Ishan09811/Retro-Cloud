@@ -12,4 +12,8 @@
 	</style>
 	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+	
+	<style name="AppMaterialCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="materialCardViewElevatedStyle">@style/Widget.MaterialComponents.CardView</item>
+        </style>
 </resources>
