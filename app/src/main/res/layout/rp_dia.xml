@@ -13,7 +13,7 @@
 		android:orientation="vertical"
 		app:cardElevation="5dp"
 		app:cardCornerRadius="25dp"
-		style="?attr/materialCardViewElevatedStyle">
+		style="?attr/AppMaterialCardViewStyle">
 		<LinearLayout
 			android:id="@+id/linear1"
 			android:layout_width="200dp"
