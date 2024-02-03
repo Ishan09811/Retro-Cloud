@@ -40,6 +40,7 @@ import java.util.*;
 import java.util.regex.*;
 import org.json.*;
 import com.google.android.material.divider.MaterialDivider;
+import com.google.android.material.materialswitch.MaterialSwitch
 
 
 public class SettingsActivity extends AppCompatActivity {
