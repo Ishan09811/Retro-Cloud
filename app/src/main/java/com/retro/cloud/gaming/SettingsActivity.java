@@ -111,7 +111,7 @@ public class SettingsActivity extends AppCompatActivity {
 		line_7 = findViewById(R.id.line_7);
 		linear10 = findViewById(R.id.linear10);
 		line_8 = findViewById(R.id.line_8);
-		switch1 = findViewById(R.id.switch1);
+		MaterialSwitch switch1 = findViewById(R.id.switch1);
 		switch2 = findViewById(R.id.switch2);
 		textview3 = findViewById(R.id.textview3);
 		textview4 = findViewById(R.id.textview4);
@@ -388,18 +388,13 @@ public class SettingsActivity extends AppCompatActivity {
 			}
 		});
 		
-		switch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-			@Override
-			public void onCheckedChanged(CompoundButton _param1, boolean _param2) {
-				final boolean _isChecked = _param2;
-				if (_isChecked) {
-					sherd.edit().putString("switch_fs", "on").commit();
-				}
-				else {
-					sherd.edit().putString("switch_fs", "of").commit();
-				}
-			}
-		});
+		switch1.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                 if (isChecked) {
+                    sherd.edit().putString("switch_fs", "on").commit();
+             } else {
+                    sherd.edit().putString("switch_fs", "off").commit();
+               }
+         });
 		
 		switch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
