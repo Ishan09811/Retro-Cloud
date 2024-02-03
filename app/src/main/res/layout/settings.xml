@@ -61,11 +61,9 @@
 					android:id="@+id/switch1"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
-					android:padding="8dp"
-					android:gravity="left|center_vertical"
+					app:switchPadding="8dp"
 					android:text="Full Screen"
-					android:textSize="16sp"
-					android:textStyle="bold"
+					android:textAppearance="?attr/textAppearanceBodyMedium"
 					android:textColor="#FFFFFF"
 					android:clickable="false"
 					android:focusable="false" />
