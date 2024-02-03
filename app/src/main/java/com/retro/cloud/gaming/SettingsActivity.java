@@ -426,11 +426,11 @@ public class SettingsActivity extends AppCompatActivity {
 	
 	private void initializeLogic() {
 		linear1.setElevation((float)20);
-		if (sherd.getString("switch_fs", "").equals("on")) {
-			switch1.setChecked(true);
-		}
+		if (sherd != null && sherd.getString("switch_fs", "").equals("on")) {
+                       switch1.setChecked(true);
+                }
 		else {
-			switch2.setChecked(false);
+			switch1.setChecked(false);
 		}
 		if (sherd.getString("switch_hdm", "").equals("on")) {
 			switch2.setChecked(true);
