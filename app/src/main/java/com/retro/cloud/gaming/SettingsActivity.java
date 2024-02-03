@@ -39,7 +39,8 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 import org.json.*;
-import com.google.android.material.divider.MaterialDivider;
+import com.google.android.material.divider.MaterialDivider;
+
 
 public class SettingsActivity extends AppCompatActivity {
 	
@@ -63,7 +64,7 @@ public class SettingsActivity extends AppCompatActivity {
 	private MaterialDivider line_7;
 	private LinearLayout linear10;
 	private MaterialDivider line_8;
-	private Switch switch1;
+	private MaterialSwitch switch1;
 	private Switch switch2;
 	private TextView textview3;
 	private TextView textview4;
@@ -573,4 +574,4 @@ public class SettingsActivity extends AppCompatActivity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
