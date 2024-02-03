@@ -111,7 +111,7 @@ public class SettingsActivity extends AppCompatActivity {
 		line_7 = findViewById(R.id.line_7);
 		linear10 = findViewById(R.id.linear10);
 		line_8 = findViewById(R.id.line_8);
-		MaterialSwitch switch1 = findViewById(R.id.switch1);
+		switch1 = findViewById(R.id.switch1);
 		switch2 = findViewById(R.id.switch2);
 		textview3 = findViewById(R.id.textview3);
 		textview4 = findViewById(R.id.textview4);
