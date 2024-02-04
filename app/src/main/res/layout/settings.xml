@@ -65,6 +65,7 @@
 					android:gravity="left|center_vertical"
 					android:textOn="Full Screen"
                                         android:textOff="Full Screen"
+					android:background="@null"
 				        android:textSize="16sp"
 					android:textColor="#FFFFFF"
 					android:clickable="false"
