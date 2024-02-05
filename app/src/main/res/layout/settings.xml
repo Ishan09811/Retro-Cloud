@@ -68,6 +68,7 @@
                                         android:textOff="Full Screen"
 					android:background="@null"
 				        android:textSize="16sp"
+					android:textStyle="bold"
 					android:textColor="#FFFFFF"
 					android:clickable="false"
 					android:focusable="false" />
