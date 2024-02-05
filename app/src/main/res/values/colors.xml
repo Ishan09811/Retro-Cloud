@@ -5,4 +5,5 @@
 	<color name="colorAccent">#008DCD</color>
 	<color name="colorControlHighlight">#008DCD</color>
 	<color name="colorControlNormal">#57BEEE</color>
+	<color name="materialDividerColor">#1fffffff</color>
 </resources>
