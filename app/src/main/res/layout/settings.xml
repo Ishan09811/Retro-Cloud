@@ -63,6 +63,7 @@
 					android:layout_height="wrap_content"
 					android:padding="8dp"
 					android:gravity="left|center_vertical"
+					android:text="Full Screen"
 					android:textOn="Full Screen"
                                         android:textOff="Full Screen"
 					android:background="@null"
