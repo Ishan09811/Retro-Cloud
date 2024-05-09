@@ -1,11 +1,16 @@
 <resources>
 	<style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
-                <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
-		<item name="colorPrimary">@color/colorPrimary</item>
-		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-		<item name="colorAccent">@color/colorAccent</item>
-		<item name="colorControlHighlight">@color/colorControlHighlight</item>
-		<item name="colorControlNormal">@color/colorControlNormal</item>
+          <item name="colorPrimary">@color/md_theme_dark_primary</item>
+          <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+          <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+          <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+          <item name="colorError">@color/md_theme_dark_error</item>
+          <item name="colorOnError">@color/md_theme_dark_onError</item>
+          <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+          <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+          <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+          <item name="colorSurface">@color/md_theme_dark_surface</item>
+          <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
 	</style>
 	<style name="AppTheme.FullScreen" parent="AppTheme">
 		<item name="android:windowFullscreen">true</item>
